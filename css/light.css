@@ -1,0 +1,141 @@
+:root{
+    --red: #dd1c1a;
+	--dark: #011627;
+	--yellow: #f0c808;
+	--light: #f6f6f6;
+	--lBlue: #bfcde0;
+	--yellowL: #e5bf07;
+	--redL: #c90f0d;
+	--blue: #6cabff;
+	--blueL: #3174d0;
+	--fFamily: 'Poppins', sans-serif;
+	--darkShadowSm: 4px 4px 15px rgba(211, 211, 211, 0.158);
+	--darkShadowLg: 2px 2px 10px rgba(211, 211, 211, 0.158);
+}
+
+
+body.dark {
+    background-color: var(--light);
+    color: var(--dark);
+    
+}
+body.dark a{
+    color: var(--dark);
+    
+
+}
+
+body.dark .title{
+    
+    color: var(--blueL);
+    
+}
+    body.dark .navbar .navlinks .navlink{
+        color: var(--light);
+    }
+
+
+body.dark .navbar .navlinks .navlink:hover{
+    color: var(--yellowL);
+
+}
+body.dark .navbar .navtheme{
+    color: var(--light);
+}
+
+body.dark .navbar .navtheme:hover{
+    color: var(--yellowL);
+   
+    
+}
+
+
+
+body.dark .hero .herobtns .btn{
+    
+    background-color: var(--yellowL);
+    color: var(--dark);
+   
+}
+body.dark .hero .herobtns .btnsec{
+   
+    border: 2px solid var(--yellowL);
+    color: var(--dark);
+    
+}
+
+body.dark .hero .herobtns .btnsec:hover{
+    background-color: var(--yellowL);
+    color:var(--dark);
+} 
+
+body.dark .about .aboutcontent a{
+color: var(--blueL);
+transition: all 200ms ;
+}
+body.dark .about .aboutcontent a:hover{
+    color: var(--yellowL);
+}
+body.dark .about .abtBtn{
+   
+    
+    
+    border: 2px solid var(--yellowL);
+    color: var(--dark);
+  
+    
+}
+body.dark .about .abtBtn:hover{
+    background-color: var(--yellowL);
+    color: var(--dark);
+}
+body.dark .skills .cardrow .card{
+    
+    box-shadow: var(--lightShadow);
+    
+    
+}
+body.dark .skills .cardrow .card .cardicon .material-icons{
+    font-size: 64px;
+    color: var(--yellowL);
+}
+
+body.dark .skills .cardrow .card .cardcontentLg{
+     
+    background-color: var(--yellowL);
+    color: var(--dark);
+    
+
+}
+
+body.dark .projects .cardrow .card img{
+   
+    box-shadow: var(--lightShadowLg);
+    
+
+}
+body.dark .projects .cardrow .card:hover img{
+    transform: scale(1.02);
+    box-shadow: 2px 2px 25px #ffffff26;
+}
+
+body.dark .contact .iconrow .icon:hover{
+color: var(--yellowL);
+}
+@media  screen and (max-width:860px) {
+   
+     body.dark .theme:hover{
+         color: var(--yellowL);
+        
+     }
+    
+body.dark .skills .cardrow .card .cardcontentSm{
+    
+    background-color: var(--yellowL);
+   
+    color: var(--dark);
+    
+
+}
+
+}
